@@ -4,7 +4,11 @@ import { Icon, Col, Card, Row, Carousel } from 'antd';
 function ImageSlider(props) {
     return (
         <div>
+<<<<<<< HEAD
             <Carousel>
+=======
+            <Carousel autoplay >
+>>>>>>> master
                 {props.images.map((image, index) => (
                     <div key={index}>
                         <img style={{ width: '100%', maxHeight: '150px' }}

@@ -2,7 +2,10 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import ProductImage from './Sections/ProductImage';
 import ProductInfo from './Sections/ProductInfo';
+<<<<<<< HEAD
 import Productdes from './Sections/Productdes';
+=======
+>>>>>>> master
 import { Row, Col } from 'antd';
 
 function DetailProductPage(props) {
@@ -40,9 +43,15 @@ function DetailProductPage(props) {
                     <ProductInfo detail={Product} />
                 </Col>
             </Row>
+<<<<<<< HEAD
                 <br />
                 <br />
                     <Productdes detail={Product} />
+=======
+
+
+
+>>>>>>> master
 
 
         </div>

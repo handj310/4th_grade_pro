@@ -1,8 +1,14 @@
 import React from 'react'
+<<<<<<< HEAD
 import { Button, Descriptions, Row } from 'antd';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../../../../_actions/user_actions';
 
+=======
+import { Button, Descriptions } from 'antd';
+import { useDispatch } from 'react-redux';
+import { addToCart } from '../../../../_actions/user_actions';
+>>>>>>> master
 function ProductInfo(props) {
     const dispatch = useDispatch();
 
@@ -13,10 +19,13 @@ function ProductInfo(props) {
 
     }
 
+<<<<<<< HEAD
     const editclickHandler = () => {
 
     }
 
+=======
+>>>>>>> master
     return (
         <div>
             <Descriptions title="Product Info">
@@ -30,6 +39,7 @@ function ProductInfo(props) {
             <br />
             <br />
             <div style={{ display: 'flex', justifyContent: 'center' }}>
+<<<<<<< HEAD
                 <Row gutter={[24, 24]}>
                 <Button size="large" shape="round" type="danger" onClick={clickHandler}>
                     Add to Cart
@@ -39,6 +49,11 @@ function ProductInfo(props) {
                     Edit
                 </Button>
                 </Row>
+=======
+                <Button size="large" shape="round" type="danger" onClick={clickHandler}>
+                    Add to Cart
+                </Button>
+>>>>>>> master
             </div>
 
 

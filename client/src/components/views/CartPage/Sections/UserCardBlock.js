@@ -1,6 +1,9 @@
 import React from 'react'
 import "./UserCardBlock.css"
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 function UserCardBlock(props) {
 
     const renderCartImage = (images) => {
@@ -9,7 +12,14 @@ function UserCardBlock(props) {
             return `http://localhost:5000/${image}`
         }
     }
+<<<<<<< HEAD
     
+=======
+
+
+
+
+>>>>>>> master
     const renderItems = () => (
         props.products && props.products.map((product, index) => (
             <tr key={index}>
@@ -18,10 +28,17 @@ function UserCardBlock(props) {
                         src={renderCartImage(product.images)} />
                 </td>
                 <td>
+<<<<<<< HEAD
                     {product.quantity} 개
                 </td>
                 <td>
                     {product.price} 원
+=======
+                    {product.quantity} EA
+                </td>
+                <td>
+                    $ {product.price}
+>>>>>>> master
                 </td>
                 <td>
                     <button onClick={() => props.removeItem(product._id)}>
